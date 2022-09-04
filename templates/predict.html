@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Saver</title>
+    <link rel="stylesheet" href="predict.css">
+    <style>
+        h1 {
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 20px;
+            padding-bottom: 20px;
+        }
+
+        body {
+            background-color: orange;
+            padding-right: 100px;
+            padding-left: 100px;
+
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+
+            font-size: 30px;
+        }
+
+        #answer {
+            width: 800px;
+            height: 75px;
+            text-align: center;
+            text-decoration-style: dashed;
+            font-size: 30px;
+        }
+
+        .end{
+            padding-left: 50%;
+        }
+        #endbutton{
+            background-color: black; 
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        #link{
+            text-decoration: none;
+    color: white;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1 id="find">
+        ------ AMOUNT OF LITRES TO BE SAVED ------ <br>
+        <br> <input type="text" id="answer" value="Amount to be saved for the given litres : {{output}}"
+            readonly="text">
+    </h1>
+
+    <br>
+    <div>
+    <h2>For the betterment of the future, the percentage of the water saved must be greater than the usage of water</h2>
+    <h4>By saving a small part of water you use every, you’re contributing to the Swachh Bharat Mission. <br> Swachh Bharat Mission aims to build a cleaner and greener India.
+
+       <br> By conserving the water we use every day, shortage of water in future reduces and we can hand out a better world to our future generations.    </h4>
+    </div>
+    <h4 style="text-align: center;"> This is our Main Objective of this Predictor</h4>
+
+    <div class="end" >
+        <button id="endbutton"> <a href="http://127.0.0.1:5000/moreinfo" id="link"> More Info </a> </button>
+
+    </div>
+</body>
+
+</html>

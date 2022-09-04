@@ -1,0 +1,80 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: rgb(2, 6, 27);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    background-color: turquoise;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+}
+
+.step1{
+    background-color: turquoise; 
+    border-radius: 25px;
+
+}
+
+h2{
+    background-color: orange;
+    padding-left: 6px;
+    
+}
+
+p{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.predict{
+    padding-left: 35%;
+}
+
+#inside_button{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: orange;
+    border-style: solid;
+    text-decoration: none;
+}
+
+#inside_button:hover{
+    background-color: yellow;
+}
+ h3{
+     
+     font-size: 27px;
+     color: BLACK;
+    }
+
+#textbox{
+    height: 20px;
+}
+
+.visuals{
+    padding-left: 29%;
+}
+
+#bu{
+    background-color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 15px;
+}
+
+#li{
+    color : black; 
+    font-size: 27px;
+}
+

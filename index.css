@@ -1,0 +1,145 @@
+body{
+    
+    background-color: turquoise;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+h1{
+    font-size: 54px;
+    text-align: center;
+    background-color: rgb(9, 9, 119);
+    color:wheat;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+img{
+    width:240px;
+    height: 480px;
+    padding-left: 40%;
+    float: right;
+}
+
+.content{
+    background-color: rgb(9, 9, 119);
+    padding-top: 10px;
+}
+p{
+    color:wheat;
+    padding-top: 8px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+h2{
+    color:wheat;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.outer{
+    background-color: orange;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.outer-header{
+    background-color: orange;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-style: solid;
+
+}
+
+h3{
+    color:orange;
+    padding-left: 50px;
+}
+
+#video{
+    padding-left: 32%;
+}
+
+#playbutton{
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    border-radius: 2px;
+    color: wheat;
+    background-color:rgb(9, 9, 119);
+    border-radius: 10px;
+
+}
+
+#pausebutton{
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    border-radius: 2px;
+    color:black;
+    background-color: turquoise;
+    border-radius: 10px;
+
+}
+
+.playclass{
+    padding-left: 45%;
+}
+
+.pauseclass{
+    padding-left: 45%;
+    padding-bottom: 10px;
+}
+
+.video{
+    background-color: rgb(9,9,119);
+}
+
+.outer3{
+    background-color: orange;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.END{
+    padding-left: 36%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+
+#endbut{
+    padding-left: 2px;
+    color : white;
+    background-color: rgb(9,9,119);
+    border-radius: 15px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    
+}
+
+
+#link{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    font-size: 25px;
+    text-decoration: none;
+}
